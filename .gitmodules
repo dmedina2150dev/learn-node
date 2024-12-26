@@ -1,0 +1,3 @@
+[submodule "scaffolding-base"]
+	path = scaffolding-base
+	url = git@github.com:dmedina2150dev/scaffolding-app-node.git
