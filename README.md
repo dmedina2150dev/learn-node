@@ -57,8 +57,6 @@ app.listen(3000)
 
 [The Node.js Event Loop](https://nodejs.org/en/learn/asynchronous-work/event-loop-timers-and-nexttick)
 
-[Guia Visual Completa para entender el Node.js Event Loop](https://www.builder.io/blog/visual-guide-to-nodejs-event-loop)
-
 Node tiene __3 componentes (características) principale
 
 ![Img Code Node](./01-fundamentos/image/code-node.png)
@@ -73,8 +71,6 @@ Node tiene __3 componentes (características) principale
 __libuv__: Le permite a Node trabajar en tareas asincronas, callbacks o cualquier código que requira esperar una ejecución o respuesta.
 
 > [Web Oficial](https://libuv.org/)
-
-> [Understanding libuv](https://zmushegh.medium.com/understanding-libuv-the-powerhouse-behind-node-js-b5349c8f0d75)
 
 * Características de C++
 * Librerias de JS que se conectan con C++ desde nuestro Código
