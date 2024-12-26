@@ -1,0 +1,13 @@
+{
+  "name": "02-bases",
+  "version": "0.0.1",
+  "description": "Primera app de Node - bases del curso de Node de 0 a Experto",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js",
+    "dev": "echo \"Hola mundo desde dev\""
+  },
+  "author": "Dajan Medina",
+  "license": "ISC"
+}
