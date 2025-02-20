@@ -1,5 +1,5 @@
 
-const fs = require('fs');
+const fs = require('node:fs');
 
 const content = fs.readFileSync('README_ANGULAR.md', 'utf8');
 
