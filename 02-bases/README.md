@@ -1,20 +1,20 @@
-Temas puntuales de la sección
+## Temas puntuales de la sección
 
-> Package.json
+### Package.json
 
-```cmd
+```javascript
 npm init
 
 npm init -Y --> Se crea con los valores por defecto
 ```
 
-> Node Modules
+### Node Modules
 
-> Scripts
+### Scripts
 
 En el package.json podemos crear nustros script para que ejecuten el código que necesites, ya sea para inicar la aplicación, correr los test, contruir el build de la aplicación, etc.
 
-```
+```javascript
 "scripts": {
   "test": "echo \"Error: no test specified\" && exit 1",
   "start": "node src/app.js",
@@ -22,19 +22,32 @@ En el package.json podemos crear nustros script para que ejecuten el código que
 },
 ```
 
-> Importaciones y Exportaciones
+### Importaciones y Exportaciones
 
-Por defecto en NodeJs se utiliza la convención o estandar CommonJS
+Por defecto en NodeJs se utiliza la convención o estandar **CommonJS**
 
-Importar modulos
+---
+> Importa el modulo o Archivo y lo ejecuta
+
+```javascript
+require('{path file}');
 ```
+
+---
+> Importa de forma destructurada lo que se exponga del modulo o Archivo 
+
+```javascript
 const { emailTemplate } = require('./js-foundation/01-template');
 ```
+---
 
-Exportar modulos
-```
+> Forma tradicional de Exportar modulos desde un archivo
+
+```javascript
 module.exports = {
-  emailTemplate
+  nameFunction,
+  constants,
+  ...etc
 };
 
 O
