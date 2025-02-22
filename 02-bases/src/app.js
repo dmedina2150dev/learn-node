@@ -1,8 +1,11 @@
 // Para traernos archivos JS
 
-// const templateExport = require('./js-foundation/01-template');
+// * Dos Formas de importar
+// const templateExport = require('./js-foundation/01-template'); // Forma 1 Todo el archivo
+// const { emailTemplate } = require('./js-foundation/01-template'); // Forma 2 Solo una parte del archivo
 const { emailTemplate } = require('./js-foundation/01-template');
 
-// console.log(templateExport.emailTemplate);
+require('./js-foundation/02-destructuring');
 
-console.log(emailTemplate);
+// console.log(templateExport.emailTemplate);
+// console.log(emailTemplate);
