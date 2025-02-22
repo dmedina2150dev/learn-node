@@ -6,8 +6,8 @@ const { SHELL } = process.env; // Destructuring object
 // console.log(SHELL);
 
 
-const charcaters = ['Goku', 'Vegeta', 'Trunks'];
+const charcaters = ['Goku', 'Vegeta', 'Crilin', 'Trunks'];
 
-const [, , trunks] = charcaters; // Destructuring array
+const [, , , trunks] = charcaters; // Destructuring array
 
-// console.log(trunks);
+console.log(trunks);
